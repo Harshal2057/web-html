@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    background-image:  url(Sunny\ Summer\ beach\ Ocean\ wallpaper\ desktop\ laptop\ background\ free\ 4k\ HD\ 1080p\ travel\ images.jpeg);
+    overflow: hidden;
+    background-size: cover; 
+     background-repeat: no-repeat;
+     background-position: center; 
+    
+}
+
+
+
+/******************************************************** NAVBAR ********************************************************/
+
+header{
+    display: flex;
+   justify-content: flex-end;
+   margin: 20px;
+}
+
+.navbar{
+    gap: 35px;
+  padding: 20px 100px 0px 0px;
+   display: flex;
+   justify-content: space-around;
+   display: flex;
+   margin-left: auto;
+}
+
+ a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: aliceblue;
+    transition: transform 0.3s ease;
+}
+a.active:active {
+    color: #FF7F50;
+    text-decoration: underline;
+
+}
+
+.navbar a:hover{
+
+    color: #B74b4b;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    transform: scale(1.2);
+}
+
+.tra_logo{
+    color: #B74b4b;
+    font-family: sans-serif;
+    font-size: 40px;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    
+  
+}
+
+
+.cards{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    top: 210px;
+    left: 25px;
+}
+
+.boxes{
+    height: auto;
+    box-shadow : rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+
+}
+
+img.boxes{
+    border-radius: 20px;
+    transition: transform 1s ease;
+    
+    
+}
+
+ img.boxes:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+/******************************************************** NAVBAR END ********************************************************/
+
+/******************************************************** Main Content ********************************************************/
+
+/******************************************************** Hi, it's Alex ********************************************************/
+
+main{
+   width: 50%;
+    position: relative;
+    left: 800px;
+   
+}
+
+.info{
+   width: 100%;
+    margin-top: 100px;
+    /* margin-left: 0px; */
+}
+
+
+.hifi{
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.moto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
+    position: absolute; 
+    right: -100%; 
+    animation: mymove 2s ease-out forwards;
+}
+
+.moto span{
+    color: #B74b4b;
+}
+
+@keyframes mymove {
+    0%{
+        right: -100%; 
+    }
+    100%{
+        right: 0%; 
+    }
+}
+
+
+
+.hiname{
+    color: #B74b4b;
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
+}
+/******************************************************** I'm a developwe ********************************************************/
+
+.work{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ima{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size:3.5rem;
+    font-weight: bolder;
+}
+
+.workdesc{
+    color: #B74b4b;
+    font-family: sans-serif;
+    font-size:3.5rem;
+    font-weight: bolder;
+}
+
+/********************************************************Self description ********************************************************/
+
+
+.tra_info{
+    margin-top: 30px;
+    margin-right: 200px;
+    position: absolute;
+    top: 190px;
+}
+
+.tra_info_l{
+    color: aliceblue;
+    font-size: larger;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+/******************************************************** Main Content END ********************************************************/
+
+/******************************************************** SOCIAL MEDIA ********************************************************/
+
+
+footer{
+    width: 50%;
+   position: relative;
+   left: 1240px;
+   top: 10px;
+}
+
+.logo{
+   position: relative;
+   top: 350px;
+   right: 430px;
+    
+}
+
+
+
+.social_logo{
+  display: inline-flex;
+      justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+     background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
+}
+
+.social_logo:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: #B74b4b;
+    box-shadow: 0 0 25px #B74b4b;
+}
+
+/******************************************************** SOCIAL MEDIA END********************************************************/
+
+/******************************************************** Main_img********************************************************/
+
+.photo{
+    width: 40%;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+
+.main_img{
+    position: absolute;
+    width: 30rem;
+    left: 170px;
+    top: 60px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
